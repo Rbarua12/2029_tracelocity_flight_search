@@ -1,7 +1,7 @@
 class CruiseSearchResultPage
   Include PageObject
   def testing
-    if
+    if x = 10
 
     end
   end
