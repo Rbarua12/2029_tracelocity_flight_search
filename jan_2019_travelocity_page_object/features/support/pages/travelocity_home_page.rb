@@ -5,7 +5,8 @@ class TravelocityHomePage
   include PageObject
   include Utilities
 
-  page_url 'www.travelocity.com'
+  page_url $url
+
 
 
   link(:select_flight_tab, :id => 'primary-header-flight')

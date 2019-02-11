@@ -6,6 +6,10 @@ Feature: travelocity Flight Search Functionality
     And user clicks on the round trip flight option
 
 
+    Scenario: testing the yml usage
+      Then I should be able to access date from the yml file
+
+
     #   Imperative
   Scenario: Verify the user is able to search for the available future flights
     And user enter  "Columbus" in the flying from and select "Columbus, OH" from the list of airports
